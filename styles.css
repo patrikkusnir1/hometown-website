@@ -10,7 +10,8 @@ DARK BLUE: #1D3557
 body {
   margin: 0;
   text-align: center;
- font-family: "Spinnaker", sans-serif;
+  font-family: "Spinnaker", sans-serif;
+  box-sizing: border-box;
 }
 
 #hero {
@@ -22,7 +23,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 200px;
+  padding: 240px;
 }
 
 h1, h2 {
@@ -59,13 +60,17 @@ img {
 
 #activities {
   display: flex;
-  justify-content: space-between;
-  padding: 0 30px;
+  justify-content: center;
+  align-items: start;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+  gap: 50px;
 
 }
 
 #activities div {
-  max-width: 30%;
+  max-width: 27%;
   line-height: 25px;
   margin: 10px 20px;
   text-align: left;
